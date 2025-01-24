@@ -7,6 +7,8 @@ This Visual Odometry project implements a computer vision technique for estimati
 
 ## Overview
 
+### Visual Odometry
+
 This Visual Odometry project implements a computer vision technique for estimating camera trajectory by tracking feature points across consecutive image frames from the KITTI dataset. Using OpenCV's advanced image processing algorithms, the system detects and tracks visual features, computes camera pose changes through essential matrix decomposition, and reconstructs 3D motion with ground truth scale integration.
 
 ### Extended Kalman Filter (EKF) Integration
