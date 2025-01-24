@@ -12,6 +12,17 @@ This Visual Odometry project implements a computer vision technique for estimati
 ## Video Demonstration <<<
 [Watch Project Demonstration](https://drive.google.com/file/d/17V9M7m_ldSC8W2JBr6J97VvN86amLDRw/view?usp=sharing)
 
+## Algorithm Workflow
+
+![Screenshot from 2025-01-24 10-31-00](https://github.com/user-attachments/assets/65931d54-9c5b-40e2-8b75-5452f4af04d4)
+
+
+1. Feature Detection (FAST algorithm)
+2. Feature Tracking (Optical Flow)
+3. Essential Matrix Computation
+4. Camera Pose Recovery
+5. Trajectory Estimation
+
 ## Prerequisites
 - OpenCV
 - CMake
@@ -37,17 +48,6 @@ cmake ..
 make
 ./visual_odometry
 ```
-
-## Algorithm Workflow
-
-![Screenshot from 2025-01-24 10-31-00](https://github.com/user-attachments/assets/65931d54-9c5b-40e2-8b75-5452f4af04d4)
-
-
-1. Feature Detection (FAST algorithm)
-2. Feature Tracking (Optical Flow)
-3. Essential Matrix Computation
-4. Camera Pose Recovery
-5. Trajectory Estimation
 
 ## Dependencies
 - OpenCV
