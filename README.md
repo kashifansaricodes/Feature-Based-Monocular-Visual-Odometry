@@ -1,27 +1,17 @@
 # Feature Based Monocular Visual Odometry and Ext. Kalman Filter integration
 
 ## Overview
+
+### Feature Based Monocular Visual Odometry
+
 This Visual Odometry project implements a computer vision technique for estimating camera trajectory by tracking feature points across consecutive image frames from the KITTI dataset. Using OpenCV's advanced image processing algorithms, the system detects and tracks visual features, computes camera pose changes through essential matrix decomposition, and reconstructs 3D motion with ground truth scale integration, providing real-time visualization of camera movement through a scene.
-
-# Feature Based Monocular Visual Odometry
-
-## Overview
-
-### Visual Odometry
-
-This Visual Odometry project implements a computer vision technique for estimating camera trajectory by tracking feature points across consecutive image frames from the KITTI dataset. Using OpenCV's advanced image processing algorithms, the system detects and tracks visual features, computes camera pose changes through essential matrix decomposition, and reconstructs 3D motion with ground truth scale integration.
 
 ### Extended Kalman Filter (EKF) Integration
 
 **Ongoing Research Focus**: The project is currently exploring the integration of an Extended Kalman Filter to enhance the robustness of visual odometry estimation. The EKF aims to address key challenges in feature-based VO:
 
-- **Noise Reduction**: Mitigating measurement and process noise in feature tracking
-- **State Estimation Improvement**: Providing more accurate camera pose and motion estimates
-- **Uncertainty Handling**: Implementing a probabilistic framework for motion prediction
-- **Nonlinear Motion Modeling**: Extending linear Kalman Filter to handle complex camera motion dynamics
-
 **Current Integration Approach**:
-- Implementing EKF state vector with camera pose and velocity
+- Implementing EKF state vector with camera pose and velocity for a Nonlinear Motion Modeling
 - Developing nonlinear measurement and prediction models
 - Exploring covariance matrix estimation for improved uncertainty quantification
 
