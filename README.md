@@ -32,7 +32,8 @@ This Visual Odometry project implements a computer vision technique for estimati
 
 ## Algorithm Workflow for VO exclusively
 
-![Screenshot from 2025-01-24 10-31-00](https://github.com/user-attachments/assets/65931d54-9c5b-40e2-8b75-5452f4af04d4)
+![Screenshot from 2025-01-27 22-57-33](https://github.com/user-attachments/assets/6e596650-4ed6-46b6-b343-23ce07fadb0f)
+
 
 
 1. Feature Detection (FAST algorithm)
